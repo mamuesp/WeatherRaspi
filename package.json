@@ -1,0 +1,38 @@
+{
+  "name": "WeatherRaspi",
+  "version": "1.0.0",
+  "description": "Weather station for the Raspberry Pi",
+  "main": "server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "cd plugin && node-gyp rebuild",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mamuesp/WeatherRaspi.git"
+  },
+  "keywords": [
+    "pi", "WeatherRaspi", "raspberry"
+  ],
+  "author": "",
+  "license": "ISC",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/mamues/WeatherRaspi/issues"
+  },
+  "homepage": "https://github.com/mamuesp/WeatherRaspi#readme",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1",
+    "lodash": "^3.10.0",
+    "moment": "^2.10.3",
+    "mongoose": "^4.0.7",
+    "q": "^1.4.1",
+    "socket.io": "^1.3.6"
+	}
+}
+
