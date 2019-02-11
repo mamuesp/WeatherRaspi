@@ -28,7 +28,7 @@
   "dependencies": {
     "body-parser": "^1.13.2",
     "express": "^4.13.1",
-    "lodash": "^3.10.0",
+    "lodash": "^4.17.11",
     "moment": "^2.10.3",
     "mongoose": "^4.0.7",
     "q": "^1.4.1",
